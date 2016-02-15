@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*General Setting*/
+* {
+	margin : 0;
+	padding: 0;
+}
+.designFont {
+	font-family: 'Dancing Script', cursive;
+}
+h3 {
+	display: inline-block;
+}
+/*staffClass Setting*/
+.staffbody {
+	width: 270px;
+	text-align: center;
+	margin: 40px 15px;
+	float:left;
+}
+.staffWrapper {
+	width: 270px;
+	height: 270px;
+	position: relative;
+	border-radius: 50%;
+	
+	
+	
+}
+.eachStaff {
+	background-color: #eee;
+	width: 200px;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	border: 3PX solid #fff;
+	box-shadow: 0px 2px 0px 2px #f08080;
+	overflow: hidden;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	z-index:500;
+	
+}
+.eachStaff:hover {
+	top: 61px;
+	box-shadow: 0px 1px 0px 1px #ff6347;
+}
+.eachStaff:active {
+	top: 62px;
+	box-shadow: 0px 0px 0px 0px #ff6347;
+}
+.eachStaff img {
+	width: 100%;
+	height: auto;
+}
+p.name {
+	position: relative;
+	font-size: 12px;
+}
+.staffBlog a, .staffSns a, .staffTwitter a {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 50%;
+	display: block;
+	top: 110px;
+	left: 110px;
+	z-index: 100;
+}
+.staffTwitter a {
+	background-color: #6495ed;
+}
+.staffSns a {
+	background-color: #20b2aa;
+}
+.staffBlog a {
+	background-color: #f08080;
+}
+.staffTwitter span, .staffSns span, .staffBlog span {
+	color: #fff;
+}
+img.fadeInPic {
+	position: absolute;
+	top: 200px;
+}
+.satelite span {
+	display: block;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+	font-size: 30px;
+}
